@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+  <link  rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"/>
+  <link  rel="stylesheet" href="styles.css">
+  <title>Spotify | Login | Clone</title>
+</head>
+<body>
+  
+  <!--Começo cabeçalho-->
+  <div id="headerr">
+      <header>
+          <img id="logoo" src="assets/logo.png" alt="logo">
+          <h1 id="text-header"><strong>Inscreva-se grátis e comece a curtir.</strong></h1>
+      </header>
+  </div>
+  <!--Final cabeçalho-->
+
+    <!--Botão entrar com facebook-->
+    <div id="div-bt-fb">
+    <button class="bt-fb"> <img class="fb" src="assets/icone-fb.png" alt="icone-fb"><strong>Inscrever-se com o Facebook</strong></button>
+    </div>
+    <!--Botão entrar com facebook-->
+
+    <!--Botão entrar com google-->
+    <div id="div-bt-google">
+    <button class="bt-google"> <img class="google" src="assets/icone-google.png" alt="icone-google"> <strong>Inscrever-se com o Google</strong></button>
+    </div>
+    <!--Botão entrar com facebook-->
+
+  <!--Linha ou-->
+  <h6><span> ou </span></h6>
+  <!--Linha ou-->
+
+  <!--Começo do form e formulários de questões-->
+  <div id="forn" class="col-4 offset-4">
+    <form>
+        <div class="facilitador">
+        <p><strong>Qual é o seu e-mail?</strong></p>
+        <input class="textboxx" type="textbox" placeholder="Insira seu e-mail.">
+        <br />
+        <a href="#" style="color: green; font-size: 14px;">Usar número de telefone.</a>
+        </div>
+
+        <div>
+        <br />
+        <p><strong>Confirme o seu e-mail</strong></p>
+        <input class="textboxx" type="textbox" placeholder="Insira o e-mail novamente.">
+       </div>
+
+        <div>
+        <br />
+        <p><strong>Crie uma senha</strong></p>
+        <input class="textboxx" type="textbox" placeholder="Crie uma senha">
+        </div>
+
+        <div>
+        <br />
+        <p><strong>Como devemos chamar você?</strong></p>
+        <input class="textboxx" type="textbox" placeholder="Insira um nome de perfil">
+        <p>Isso aparece no seu perfil.</p>
+        </div>
+        <br />
+        <p><strong>Qual a sua data de nascimento?</strong></p>
+
+        <div id="data">
+            <div>
+              <p>Dia</p>
+              <input id="dia"type="textbox" placeholder="DD">
+            </div>
+
+            <div>
+              <p>Mês</p>
+              <select id="mêss">
+                <option selected disabled value>Mês</option>
+                <option>afasdf</option>
+              </select>
+            </div>
+
+            <div>
+              <p>Ano</p>
+              <input id="ano"type="textbox" placeholder="AAAA">
+            </div>
+        </div>
+    </form>
+    <!--Final do form-->
+
+    <div>
+      <br />
+      <p><strong>Qual é o seu gênero?</strong></p>
+      <input class="space" type="checkbox" id="male">
+      <label for="male">Masculino</label>
+      <input type="checkbox" id="female">
+      <label for="female">Feminino</label>
+      <input type="checkbox" id="binary">
+      <label for="binary">Não binário</label>
+      <input type="checkbox" id="others">
+      <label for="others">Outros</label>
+      <br />
+      <input type="checkbox" id="não">
+      <label for="não">Prefiro não dizer</label>
+    </div>
+    <span>
+      <br />
+      <br />
+      <input type="checkbox" id="marketing">
+      <label class="letrinha" for="marketing">Não quero receber mensagens de marketing do Spotify</label>
+    </span>
+    <span>
+      <br />
+      <br />
+      <input class="defeito" type="checkbox" id="dados">
+      <label class="letrinha" for="dados">Compartilhar meus dados cadastrais com os <br /> 
+        provedores de conteúdo do Spotify para fins de  <br />marketing.</label>
+    </span>
+    <div>
+      <br />
+      <input class="defeitoo" type="checkbox" id="termos">
+      <label class="letrinha" for="termos">Eu concordo com os <a href="#" style="color: green;">Termos e Condições de Uso do  <br />Spotify.</a></label>
+    </div>
+    <div>
+      <div
+  class="g-recaptcha"
+  data-sitekey="6LeIxAcTAAAAAJcZVRqyHh71UMIEGNQ_MXjiZKhI"
+>
+</div>
+    </div>
+    <!--Final formulários de questões-->
+    <div>
+      <br />
+      <p style="font-size: 11px;">Para saber mais sobre como o Spotify coleta, utiliza, compartilha e protege seus dados pessoais, leia a <a href="#" style="color: green;" >Política de Privacidade do Spotify.</a></p>
+    </div>
+    <div class="final">
+      <button class="inscrito"> <strong>Inscrever-se</strong></button>
+    </div>
+    <div class="final">
+      <br />
+      Já tem uma conta? <a href="#" style="color: green;">Faça login.</a>
+    </div>
+  </div>
+  <script src="https://www.google.com/recaptcha/api.js" async defer>
+  </script>
+</body>
+</html>
